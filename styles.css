@@ -1,0 +1,172 @@
+:root {
+    /* the higher the number, the darker the color */
+    --gray-1: #e8e8e8;
+    --gray-2: #b0b0b0;
+    --gray-3: #8a8a8a;
+    --gray-4: #575757;
+    --gray-5: #363636;
+    --gray-6: #141414;
+}
+
+.gray-4 {
+    background-color: var(--gray-4);
+    color: white;
+}
+
+.gray-5 {
+    background-color: var(--gray-5);
+    color: white;
+}
+
+.gray-6 {
+    background-color: var(--gray-6);
+    color: white;
+}
+
+
+
+.header-navigation {
+    height: 150px;
+    display: flex;
+    background-color: gray;
+}
+
+.header-navigation > *{
+    text-align: center;
+    
+}
+
+.logo {
+    flex: 1;
+    background-color: var(--gray-5);
+    height: 50%;
+    align-self: center;
+    color: white;
+}
+
+div[class^="header-block"]{
+    flex: 1;
+}
+
+.header-block6 {
+    height: 50%;
+    align-self: center;
+}
+.latest-post1 {
+    display: flex;
+    height: 600px;
+}
+
+.latest-post1 > * {
+    flex: 1;
+}
+
+
+
+.post1-block1, .post1-block3 {
+    background-color: var(--gray-2);
+}
+
+.post1-wrapper1 {
+    height: 50%;
+    align-self: center;
+    background-color: red;
+}
+
+.post1-block2 {
+    background-color: var(--gray-3);
+}
+
+.latest-post2 {
+    display: flex;
+    height: 300px;
+}
+
+.post2-block1, .post2-block2, .post2-block3 {
+    flex: 1;
+    background-color: var(--gray-1);
+}
+.post2-block4 {
+    flex: 1;
+    background-color: var(--gray-3);
+
+}
+
+.latest-post3 {
+    display: flex;
+    height: 500px;
+}
+
+.post3-block1 {
+    flex: 2;
+    background-color: var(--gray-2);
+}
+
+.post3-block2 {
+    flex: 1;
+    background-color: var(--gray-1);
+}
+
+.post3-block3 {
+    flex: 1;
+    background-color: var(--gray-1);
+}
+
+.latest-post4 {
+    display: flex;
+    height: 500px;
+}
+
+.post4-block1, .post4-block2 {
+    flex: 1;
+    background-color: var(--gray-1);
+}
+
+.post4-block3 {
+    flex: 2;
+    background-color: var(--gray-2);
+}
+
+.next-pdf {
+    display:flex;
+    height: 600px;
+    background-color: var(--gray-3);
+}
+
+.person-of-the-week {
+    display:flex;
+    height: 300px;
+    background-color: var(--gray-1);
+}
+
+.community {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.featured-smashing-book {
+    display: block;
+    background-color: var(--gray-2);
+}
+
+.curated-posts {
+    display: flex;
+    height: 400px;
+    background-color: var(--gray1);
+}
+
+.curated-posts * {
+    flex: 1;
+}
+
+.newsletter {
+    display: block:
+    margin: 0 auto;
+    background-color: var(--gray-2);
+}
+
+.topics {
+    background-color: var(--gray-2);
+}
