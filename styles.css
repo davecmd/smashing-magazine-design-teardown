@@ -59,6 +59,7 @@ div[class^="header-block"]{
 
 .latest-post1 > * {
     flex: 1;
+    display: grid;
 }
 
 
@@ -69,8 +70,14 @@ div[class^="header-block"]{
 
 .post1-wrapper1 {
     height: 50%;
+    display: grid;
     align-self: center;
-    background-color: red;
+}
+
+.post1-wrapper2 {
+    height: 70%;
+    display: grid;
+    align-self: center;
 }
 
 .post1-block2 {
@@ -128,13 +135,13 @@ div[class^="header-block"]{
 }
 
 .next-pdf {
-    display:flex;
+    display: block;
     height: 600px;
     background-color: var(--gray-3);
 }
 
 .person-of-the-week {
-    display:flex;
+    display: block;
     height: 300px;
     background-color: var(--gray-1);
 }
